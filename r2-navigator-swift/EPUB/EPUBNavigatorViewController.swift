@@ -342,9 +342,9 @@ open class EPUBNavigatorViewController: UIViewController, VisualNavigator, Logga
         }
 
         // Re-positions the navigator to the location before applying the settings
-        if let location = location {
-            self.go(to: location)
-        }
+//        if let location = location {
+//            self.go(to: location)
+//        }
     }
 
     /// Polling interval to refresh user settings styles
